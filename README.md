@@ -4,7 +4,7 @@ Liri is a node based app that uses the NPM packages Axios and Spotify. It also u
 
 Liri supports the following arguments:
 
-* concert-this <artist-name>
+* concert-this 'artist-name'
 
 This command will return a list of venues that the given artist is playing at in the upcoming months.
 
@@ -14,7 +14,7 @@ This command will return a list of venues that the given artist is playing at in
 
 
 
-* spotify-this-song <song-title>
+* spotify-this-song 'song-title'
 
 This command returns details and a link to given song
 
@@ -22,7 +22,7 @@ This command returns details and a link to given song
   <source src="spotify-this-song.mp4" type="video/mp4"
 </video>
 
-* movie-this <movie-title>
+* movie-this 'movie-title'
 
 This command will return the details about a given movie.
 
